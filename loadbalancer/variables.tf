@@ -22,7 +22,7 @@ variable "department_id" {
 variable "rg_location" {
   type        = string
   description = "Location of Resource Group"
-  default     = "Sweden Central"
+  default     = "norwaywest"
 }
 
 # Vnet CIDR

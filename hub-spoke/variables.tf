@@ -1,16 +1,16 @@
 variable "location" {
   description = "Location of the network"
-  default     = "westeurope"
+  default     = "norwayeast"
 }
 
 variable "rg_location_onprem" {
   description = "location of resource group"
-  default = "westeurope"
+  default = "norwayeast"
 }
 
 variable "rg_location_cloud" {
   description = "location of resource group in cloud"
-  default = "northeurope"
+  default = "norwaywest"
 }
 
 variable "username" {
